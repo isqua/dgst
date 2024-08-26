@@ -1,0 +1,10 @@
+.hugo_build.lock
+.Ulysses-Settings.plist
+
+node_modules/
+public/
+resources/_gen/
+themes/ga-hugo-theme/
+
+themes/rowena/node_modules/
+themes/rowena/static/
