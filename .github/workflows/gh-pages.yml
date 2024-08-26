@@ -1,0 +1,37 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.133.1'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: setup pages
+        id: pages
+        uses: actions/configure-pages@v3
+
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+            path: ./public
+
+      - name: deploy to github pages
+        id: deployment
+        uses: actions/deploy-pages@v2
