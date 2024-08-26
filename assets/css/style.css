@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.post {
+    margin: auto;
+    max-width: 40rem;
+}
+
+.post h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0 0 1rem;
+}
+
+.post h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+.post__content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.post__content li {
+    margin: 0 0 1rem;
+}
+
+.post__content a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    padding: 0.2rem;
+}
+
+.post__content a:hover,
+.post__content a:focus {
+    color: inherit;
+    border-bottom-color: currentColor;
+}
+
+.post__content a:visited {
+    color: #999;
+}
