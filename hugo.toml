@@ -1,3 +1,9 @@
 baseURL = 'https://isqua.github.io/dgst/'
 languageCode = 'en-us'
 title = 'dgst'
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+  taxonomy = []
+  term = []
