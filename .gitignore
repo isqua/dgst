@@ -3,6 +3,7 @@
 
 node_modules/
 public/
+dist/
 resources/_gen/
 themes/ga-hugo-theme/
 
