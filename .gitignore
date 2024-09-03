@@ -1,6 +1,7 @@
 .hugo_build.lock
 .Ulysses-Settings.plist
 
+dist/
 node_modules/
 public/
 resources/_gen/
