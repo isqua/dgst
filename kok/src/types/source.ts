@@ -1,5 +1,10 @@
 import { Feed } from "./feed";
 
+export type FetchOptions = {
+    lastSeen?: string;
+    since?: Date;
+};
+
 export interface ISource {
-    fetch(): Promise<Feed>;
+    fetch(options: FetchOptions): Promise<Feed>;
 }

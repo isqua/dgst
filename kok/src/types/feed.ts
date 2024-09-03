@@ -7,5 +7,6 @@ export type FeedItem = {
 
 export type Feed = {
     title: string;
+    source: string;
     items: FeedItem[];
 };

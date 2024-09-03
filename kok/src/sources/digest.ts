@@ -1,4 +1,10 @@
-import type { DigestConfig, IDigest, ISource } from "../types";
+import type {
+    DigestCache,
+    DigestConfig,
+    Feed,
+    IDigest,
+    ISource,
+} from "../types";
 import { Source } from "./source.js";
 
 export class Digest implements IDigest {
@@ -14,5 +20,17 @@ export class Digest implements IDigest {
 
     get path() {
         return this.config.path;
+    }
+
+    async *fetchFeeds(cache: DigestCache): AsyncGenerator<Feed> {
+        const since = this.config.since();
+
+        for (const src of this.config.sources) {
+            const source = Source.build(src);
+            const lastSeen = cache[src] ?? undefined;
+            const feed = await source.fetch({ lastSeen, since });
+
+            yield feed;
+        }
     }
 }

@@ -1,3 +1,4 @@
+import { weekAgo } from "../lib/date.js";
 import type { DigestConfig } from "../types/digest";
 
 const sources: string[] = [
@@ -11,4 +12,5 @@ export const reactWeekly: DigestConfig = {
     sources,
     title: "React Weekly",
     path: "react/weekly",
+    since: weekAgo,
 };
