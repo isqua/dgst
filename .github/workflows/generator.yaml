@@ -45,3 +45,9 @@ jobs:
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  publish:
+    needs: generate_content
+    permissions:
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
