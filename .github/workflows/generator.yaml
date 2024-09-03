@@ -1,0 +1,47 @@
+name: Weekly Task
+
+on:
+  schedule:
+    - cron: '0 21 * * 0'
+
+jobs:
+  generate_content:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '>=20'
+
+      - name: Install dependencies
+        run: |
+          cd kok
+          npm install
+
+      - name: Build TypeScript code
+        run: |
+          cd kok
+          npm run build
+
+      - name: Run the script
+        run: |
+          node ./kok/dist/index.js ./content
+
+      - name: Add generated files
+        run: |
+          cd content
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add generated files" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
