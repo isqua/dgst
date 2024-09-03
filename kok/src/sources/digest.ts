@@ -28,9 +28,13 @@ export class Digest implements IDigest {
         for (const src of this.config.sources) {
             const source = Source.build(src);
             const lastSeen = cache[src] ?? undefined;
-            const feed = await source.fetch({ lastSeen, since });
+            try {
+                const feed = await source.fetch({ lastSeen, since });
 
-            yield feed;
+                yield feed;
+            } catch (e) {
+                console.error(e);
+            }
         }
     }
 }

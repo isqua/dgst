@@ -36,7 +36,8 @@ export class MarkdownWriter {
             const cache = await readFile(this.resolveCacheFilePath(digestPath));
 
             return JSON.parse(cache.toString());
-        } catch (_) {
+        } catch (e) {
+            console.error(e);
             return {};
         }
     }
@@ -50,7 +51,9 @@ export class MarkdownWriter {
                 this.resolveCacheFilePath(digestPath),
                 JSON.stringify(cache, null, 2),
             );
-        } catch (_) {}
+        } catch (e) {
+            console.error(e);
+        }
     }
 
     protected async write(
