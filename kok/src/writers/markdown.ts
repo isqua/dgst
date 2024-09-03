@@ -1,5 +1,5 @@
 import { createWriteStream } from "fs";
-import { mkdir, readFile, writeFile } from "fs/promises";
+import { mkdir, readFile, unlink, writeFile } from "fs/promises";
 import path from "path";
 
 import { MarkdownFormatter } from "../formatters/markdown.js";
@@ -76,11 +76,13 @@ export class MarkdownWriter {
             count: oldCache.count + 1,
             lastSeen: {},
         };
+        let hasItems = false;
 
         for await (const feed of feeds) {
             if (feed.items.length > 0) {
                 fileStream.write(this.formatter.getFeedText(feed));
                 newCache.lastSeen[feed.source] = feed.items[0].link;
+                hasItems = true;
             } else {
                 newCache.lastSeen[feed.source] =
                     oldCache.lastSeen?.[feed.source];
@@ -88,7 +90,19 @@ export class MarkdownWriter {
         }
 
         return new Promise((resolve) => {
-            fileStream.end(() => resolve(newCache));
+            fileStream.end(async () => {
+                if (!hasItems) {
+                    console.error(
+                        `Digest ${digest.path} is empty at ${createdAt.toDateString()}`,
+                    );
+
+                    await unlink(filePath);
+
+                    return resolve(oldCache);
+                }
+
+                resolve(newCache);
+            });
         });
     }
 
