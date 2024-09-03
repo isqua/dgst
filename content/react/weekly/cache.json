@@ -1,0 +1,8 @@
+{
+  "count": 8,
+  "lastSeen": {
+    "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v18.3.1",
+    "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/",
+    "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.6-rc"
+  }
+}
