@@ -38,7 +38,10 @@ export class MarkdownWriter {
             return JSON.parse(cache.toString());
         } catch (e) {
             console.error(e);
-            return {};
+            return {
+                count: 0,
+                lastSeen: {},
+            };
         }
     }
 
@@ -65,18 +68,22 @@ export class MarkdownWriter {
         const fileStream = createWriteStream(filePath, { flags: "a" });
 
         fileStream.write(
-            this.formatter.getFrontMatter(digest.title, createdAt),
+            this.formatter.getFrontMatter(digest.getTitle(oldCache), createdAt),
         );
 
         const feeds = digest.fetchFeeds(oldCache);
-        const newCache: DigestCache = {};
+        const newCache: DigestCache = {
+            count: oldCache.count + 1,
+            lastSeen: {},
+        };
 
         for await (const feed of feeds) {
             if (feed.items.length > 0) {
                 fileStream.write(this.formatter.getFeedText(feed));
-                newCache[feed.source] = feed.items[0].link;
+                newCache.lastSeen[feed.source] = feed.items[0].link;
             } else {
-                newCache[feed.source] = oldCache[feed.source];
+                newCache.lastSeen[feed.source] =
+                    oldCache.lastSeen?.[feed.source];
             }
         }
 

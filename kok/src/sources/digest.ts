@@ -14,8 +14,9 @@ export class Digest implements IDigest {
         this.sources = this.config.sources.map((s) => Source.build(s));
     }
 
-    get title() {
-        return this.config.title;
+    getTitle(cache: DigestCache): string {
+        const count = cache.count ?? 0;
+        return `${this.config.title} #${count + 1}`;
     }
 
     get path() {
@@ -27,7 +28,7 @@ export class Digest implements IDigest {
 
         for (const src of this.config.sources) {
             const source = Source.build(src);
-            const lastSeen = cache[src] ?? undefined;
+            const lastSeen = cache.lastSeen?.[src] ?? undefined;
             try {
                 const feed = await source.fetch({ lastSeen, since });
 

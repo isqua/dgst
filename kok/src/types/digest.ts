@@ -1,6 +1,9 @@
 import type { Feed } from "./feed";
 
-export type DigestCache = Record<string, string>;
+export type DigestCache = {
+    count: number;
+    lastSeen: Record<string, string>;
+};
 
 export type DigestConfig = {
     title: string;
@@ -10,7 +13,7 @@ export type DigestConfig = {
 };
 
 export interface IDigest {
-    title: string;
     path: string;
+    getTitle(cache: DigestCache): string;
     fetchFeeds(cache: DigestCache): AsyncGenerator<Feed>;
 }
