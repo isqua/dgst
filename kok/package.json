@@ -1,0 +1,15 @@
+{
+  "name": "dgst",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.2",
+    "rss-parser": "3.13.0",
+    "typescript": "5.5.4"
+  }
+}
