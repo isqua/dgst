@@ -1,8 +1,11 @@
 {
-  "count": 8,
+  "count": 9,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v18.3.1",
+    "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/%40rtk-query%2Fcodegen-openapi%402.0.0-alpha.2",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v6.0.0-alpha.24",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-6-rc/",
-    "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.6-rc"
+    "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.6-rc",
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v22.8.0"
   }
 }
