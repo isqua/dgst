@@ -1,13 +1,13 @@
 {
-  "count": 32,
+  "count": 33,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.0.0",
     "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.5.1",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/plugin-legacy%406.0.1",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v3.0.4",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v6.2.0-beta.1",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v3.0.6",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.2.0",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-rc/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.8-beta",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v23.8.0"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v18.20.7"
   }
 }
