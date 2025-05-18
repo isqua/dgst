@@ -1,14 +1,14 @@
 {
-  "count": 44,
+  "count": 45,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.1.0",
     "https://overreacted.io/rss.xml": "https://overreacted.io/static-as-a-server/",
-    "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.8.1",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v6.3.5",
+    "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.8.0",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/create-vite%406.5.0",
     "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v3.2.0-beta.1",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.0",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/typescript-native-port/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.8.3",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.0.1"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.0.2"
   }
 }
