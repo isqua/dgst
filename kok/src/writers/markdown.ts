@@ -79,6 +79,7 @@ export class MarkdownWriter {
         let hasItems = false;
 
         for await (const feed of feeds) {
+            console.log('Parsing feed', feed.source);
             if (feed.items.length > 0) {
                 fileStream.write(this.formatter.getFeedText(feed));
                 newCache.lastSeen[feed.source] = feed.items[0].link;

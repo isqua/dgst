@@ -13,7 +13,11 @@ async function main() {
     for (const config of digests) {
         const digest = new Digest(config);
 
+        console.log(`-- Generating "${config.title}"`)
+
         await writer.generate(digest, createdAt);
+
+        console.log(`-- Done "${config.title}"\n`)
     }
 }
 
