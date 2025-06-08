@@ -1,1 +1,14 @@
-{}
+{
+  "count": null,
+  "lastSeen": {
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ui-course-frag-173/",
+    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/ux-design/linear-design/",
+    "https://bolknote.ru/rss/": "https://bolknote.ru/all/narodnaya-medicina-v-shtatah/",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/long-term-support-channel-update-for.html",
+    "https://css-tricks.com/feed": "https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/",
+    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/07/15633/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-06-you-can-now-run-model-evaluations-with-the-models-cli",
+    "https://github.blog/feed/": "https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/",
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/collaboration-most-underrated-ux-skill/"
+  }
+}
