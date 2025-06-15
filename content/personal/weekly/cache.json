@@ -1,14 +1,16 @@
 {
-  "count": null,
+  "count": 1,
   "lastSeen": {
-    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ui-course-frag-173/",
-    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/ux-design/linear-design/",
-    "https://bolknote.ru/rss/": "https://bolknote.ru/all/narodnaya-medicina-v-shtatah/",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/long-term-support-channel-update-for.html",
-    "https://css-tricks.com/feed": "https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/",
-    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/07/15633/",
-    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-06-you-can-now-run-model-evaluations-with-the-models-cli",
-    "https://github.blog/feed/": "https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/",
-    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/collaboration-most-underrated-ux-skill/"
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/otvety-na-voprosy-vitaliya-o-sheme-metro-samary/",
+    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/7-common-css-navigation-menu-mistakes-how-to-fix-them/",
+    "https://bolknote.ru/rss/": "https://bolknote.ru/all/skolko-vesit-lokomotiv/",
+    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/reading-list-342/",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/chrome-dev-for-desktop-update_12.html",
+    "https://css-tricks.com/feed": "https://css-tricks.com/breaking-boundaries-building-a-tangram-puzzle-with-scss/",
+    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/14/15677/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-13-github-copilot-in-vs-code-may-release-v1-101",
+    "https://github.blog/feed/": "https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/",
+    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/construction-lines/",
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/creating-moving-highlight-navigation-bar-javascript-css/"
   }
 }

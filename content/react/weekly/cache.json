@@ -1,14 +1,14 @@
 {
-  "count": 48,
+  "count": 49,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.1.0",
-    "https://overreacted.io/rss.xml": "https://overreacted.io/how-imports-work-in-rsc/",
+    "https://overreacted.io/rss.xml": "https://overreacted.io/suppressions-of-suppressions/",
     "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.8.0",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v7.0.0-beta.0",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v3.2.2",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v7.0.0-beta.1",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v3.2.3",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.0",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.8.3",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.1.0"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.2.0"
   }
 }
