@@ -1,17 +1,19 @@
 {
-  "count": 2,
+  "count": 3,
   "lastSeen": {
-    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/material-3-vyrazitelny-i-emocii-ot-dizayna/",
+    "http://antonz.ru/rss/": "https://antonz.ru/go-1-25/",
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ui-course-frag-174/",
     "http://softwaremaniacs.org/blog/feed/": "https://softwaremaniacs.org/blog/2025/03/06/the-dawn-of-everything/",
-    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/fix-nextjs-app-slow-performance/",
-    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/reading-list-342/",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/chrome-dev-for-desktop-update_20.html",
-    "https://css-tricks.com/feed": "https://css-tricks.com/color-everything-in-css/",
+    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/how-html-selectedcontent-element-improves-dropdowns/",
+    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/british-browser-boiz-fun-microsoft-dma-compliance-meeting/",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/dev-channel-update-for-chromeos.html",
+    "https://css-tricks.com/feed": "https://css-tricks.com/css-blob-recipes/",
     "https://danis.one/rss/": "https://danis.one/keyboard-post/",
-    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/22/15726/",
-    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-20-upcoming-deprecation-of-o1-gpt-4-5-o3-mini-and-gpt-4o",
-    "https://github.blog/feed/": "https://github.blog/ai-and-ml/github-copilot/github-copilot-spaces-bring-the-right-context-to-every-suggestion/",
-    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/bluesky-likes/",
-    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/accessible-ux-research-pre-release/"
+    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/28/15780/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-27-upcoming-breaking-change-for-github-actions-removal-of-larger-hosted-runners-from-self-hosted-api",
+    "https://github.blog/feed/": "https://github.blog/security/github-advisory-database-by-the-numbers-known-security-vulnerabilities-and-what-you-can-do-about-them/",
+    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/hovercar/",
+    "https://mikeozornin.ru/blog/rss/": "https://mikeozornin.ru/blog/all/strange-humor/",
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/can-good-ux-protect-older-users-digital-scams/"
   }
 }
