@@ -1,19 +1,20 @@
 {
-  "count": 3,
+  "count": 4,
   "lastSeen": {
-    "http://antonz.ru/rss/": "https://antonz.ru/go-1-25/",
-    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ui-course-frag-174/",
+    "http://antonz.ru/rss/": "https://antonz.ru/do-not-testify/",
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/superpedestrian/",
     "http://softwaremaniacs.org/blog/feed/": "https://softwaremaniacs.org/blog/2025/03/06/the-dawn-of-everything/",
-    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/how-html-selectedcontent-element-improves-dropdowns/",
-    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/british-browser-boiz-fun-microsoft-dma-compliance-meeting/",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/06/dev-channel-update-for-chromeos.html",
-    "https://css-tricks.com/feed": "https://css-tricks.com/css-blob-recipes/",
+    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/product-management/leader-spotlight-tyler-stone/",
+    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/reading-list-344/",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/07/dev-channel-update-for-chromeos_17.html",
+    "https://css-tricks.com/feed": "https://css-tricks.com/getting-creative-with-versal-letters/",
     "https://danis.one/rss/": "https://danis.one/keyboard-post/",
-    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/06/28/15780/",
-    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-06-27-upcoming-breaking-change-for-github-actions-removal-of-larger-hosted-runners-from-self-hosted-api",
-    "https://github.blog/feed/": "https://github.blog/security/github-advisory-database-by-the-numbers-known-security-vulnerabilities-and-what-you-can-do-about-them/",
-    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/hovercar/",
+    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/07/20/16006/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-07-18-new-github-copilot-activity-report-with-enhanced-authentication-and-usage-insights",
+    "https://github.blog/feed/": "https://github.blog/news-insights/company-news/github-availability-report-june-2025/",
+    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/design-state-of-html/",
     "https://mikeozornin.ru/blog/rss/": "https://mikeozornin.ru/blog/all/strange-humor/",
-    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/06/can-good-ux-protect-older-users-digital-scams/"
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/07/why-non-native-content-designers-improve-global-ux/",
+    "https://tonsky.me/atom.xml": "https://tonsky.me/blog/gaslight-driven-development/"
   }
 }
