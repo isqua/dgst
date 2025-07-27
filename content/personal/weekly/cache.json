@@ -1,20 +1,22 @@
 {
-  "count": 4,
+  "count": 5,
   "lastSeen": {
     "http://antonz.ru/rss/": "https://antonz.ru/do-not-testify/",
-    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/superpedestrian/",
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ui-course-frag-176/",
     "http://softwaremaniacs.org/blog/feed/": "https://softwaremaniacs.org/blog/2025/03/06/the-dawn-of-everything/",
-    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/product-management/leader-spotlight-tyler-stone/",
-    "https://brucelawson.co.uk/feed/": "https://brucelawson.co.uk/2025/reading-list-344/",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/07/dev-channel-update-for-chromeos_17.html",
-    "https://css-tricks.com/feed": "https://css-tricks.com/getting-creative-with-versal-letters/",
+    "https://addyosmani.com/feed.xml": "https://addyosmani.com/blog/ai-evals/",
+    "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/catch-frontend-issues-before-users-using-chaos-engineering/",
+    "https://bolknote.ru/rss/": "https://bolknote.ru/all/svet-i-ekonomiya/",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/07/chrome-dev-for-desktop-update_24.html",
+    "https://css-tricks.com/feed": "https://css-tricks.com/how-to-discover-a-css-trick/",
     "https://danis.one/rss/": "https://danis.one/keyboard-post/",
-    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/07/20/16006/",
-    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-07-18-new-github-copilot-activity-report-with-enhanced-authentication-and-usage-insights",
-    "https://github.blog/feed/": "https://github.blog/news-insights/company-news/github-availability-report-june-2025/",
-    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/design-state-of-html/",
+    "https://dxdt.ru/feed/": "https://dxdt.ru/2025/07/26/16051/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2025-07-24-github-consistently-maintains-user-defined-tab-width-preferences",
+    "https://github.blog/feed/": "https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/",
+    "https://ksoftware.livejournal.com/data/atom": "https://toverovskiy.livejournal.com/455026.html",
+    "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2025/state-of-html/",
     "https://mikeozornin.ru/blog/rss/": "https://mikeozornin.ru/blog/all/strange-humor/",
-    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/07/why-non-native-content-designers-improve-global-ux/",
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2025/07/designing-better-ux-left-handed-people/",
     "https://tonsky.me/atom.xml": "https://tonsky.me/blog/gaslight-driven-development/"
   }
 }
