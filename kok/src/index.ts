@@ -13,12 +13,19 @@ async function main() {
     for (const config of digests) {
         const digest = new Digest(config);
 
-        console.log(`-- Generating "${config.title}"`)
+        console.log(`-- Generating "${config.title}"`);
 
-        await writer.generate(digest, createdAt);
+        try {
+            await writer.generate(digest, createdAt);
+        } catch (err) {
+            console.error(`-- Error generating ${config.title}`);
+            console.error(err);
+        }
 
-        console.log(`-- Done "${config.title}"\n`)
+        console.log(`-- Done "${config.title}"\n`);
     }
+
+    process.exit();
 }
 
 main();

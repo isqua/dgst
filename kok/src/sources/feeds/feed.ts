@@ -9,7 +9,11 @@ const isFeedItem = (item: Parser.Item): item is FeedItem => {
 export class FeedSource implements ISource {
     constructor(
         public readonly url: string,
-        protected parser: Parser = new Parser(),
+        protected parser: Parser = new Parser({
+            requestOptions: {
+                timeout: 5000,
+            },
+        }),
     ) {}
 
     async fetch({ lastSeen, since }: FetchOptions) {

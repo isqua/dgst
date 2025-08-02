@@ -34,6 +34,7 @@ export class Digest implements IDigest {
 
                 yield feed;
             } catch (e) {
+                console.error(`Error fetching "${src}"`);
                 console.error(e);
             }
         }
