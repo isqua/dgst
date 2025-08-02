@@ -42,6 +42,12 @@ const sources: string[] = [
     "https://tonsky.me/atom.xml",
     "https://vorushin.github.io/feed.xml",
     "https://vsevolodustinov.ru/blog/rss/",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA", // Starter Story
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCLZ6-13n1-IzVGCSNYP_CSw", // Niche Pursuits
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCOei1E1Vqq10S913OEqTWGw", // Podlodka
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCKvaSxHH11xccltyc8IFXjA", // Oliur Online
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UC6YpkaZsAcAvPNt4rLiS7dg", // Frontend Engineer
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaTfYudJUVA8cV_But8KZVQ", // Pepelsbey Vadim Makeev
 ];
 
 export const personalWeekly: DigestConfig = {
