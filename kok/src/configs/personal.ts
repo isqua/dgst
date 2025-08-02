@@ -2,6 +2,7 @@ import { weekAgo } from "../lib/date.js";
 import type { DigestConfig } from "../types/digest.js";
 
 const sources: string[] = [
+    "https://www.developerway.com/rss.xml",
     "http://antonz.ru/rss/",
     "http://bizikov.ru/posts/feed/",
     "http://glebkalinin.ru/atom.xml",
@@ -17,7 +18,6 @@ const sources: string[] = [
     "https://blog.logrocket.com/feed/",
     "https://bolknote.ru/rss/",
     "https://brucelawson.co.uk/feed/",
-    "https://chromereleases.googleblog.com/feeds/posts/default",
     "https://css-tricks.com/feed",
     "https://danis.one/rss/",
     "https://dxdt.ru/feed/",
@@ -42,7 +42,6 @@ const sources: string[] = [
     "https://tonsky.me/atom.xml",
     "https://vorushin.github.io/feed.xml",
     "https://vsevolodustinov.ru/blog/rss/",
-    "https://www.developerway.com/rss.xml",
 ];
 
 export const personalWeekly: DigestConfig = {

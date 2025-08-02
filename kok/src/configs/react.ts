@@ -13,6 +13,7 @@ const sources: string[] = [
     "https://devblogs.microsoft.com/typescript/feed/",
     "https://github.com/microsoft/TypeScript/releases.atom",
     "https://github.com/nodejs/node/releases.atom",
+    "https://chromereleases.googleblog.com/feeds/posts/default",
 ];
 
 export const reactWeekly: DigestConfig = {
