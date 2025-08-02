@@ -1,7 +1,29 @@
+:root {
+    --background: #fff;
+    --text: #333;
+    --link: #446;
+    --linkBorder: #ddd;
+    --linkFocused: #0056D2;
+    --linkVisited: #666;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #333;
+        --text: #f0f0f0;
+        --link: #fff;
+        --linkBorder: #999;
+        --linkFocused: #1abef1;
+        --linkVisited: #aaa;
+    }
+}
+
+
 body {
     font-family: sans-serif;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--background);
+    color: var(--text);
 }
 
 .post {
@@ -28,23 +50,26 @@ body {
 }
 
 .post__content li {
+    line-height: 1.5;
     margin: 0 0 1rem;
 }
 
-.post__content a {
-    color: #333;
+a {
+    color: var(--link);
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 1px solid #ddd;
-    padding: 0.2rem;
+    letter-spacing: 0.02rem;
+    border-bottom: 1px solid var(--linkBorder);
 }
 
-.post__content a:hover,
-.post__content a:focus {
-    color: inherit;
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
+    color: var(--linkFocused);
     border-bottom-color: currentColor;
 }
 
-.post__content a:visited {
-    color: #999;
+a:visited {
+    color: var(--linkVisited);
 }
