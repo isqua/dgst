@@ -1,16 +1,16 @@
 {
-  "count": 61,
+  "count": 62,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.1.1",
-    "https://overreacted.io/rss.xml": "https://overreacted.io/lean-for-javascript-developers/",
+    "https://overreacted.io/rss.xml": "https://overreacted.io/open-social/",
     "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.9.0",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v7.1.6",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.0.0-beta.11",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/create-vite%408.0.1",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.0.0-beta.13",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.0",
     "https://github.com/testing-library/dom-testing-library/releases.atom": "https://github.com/testing-library/dom-testing-library/releases/tag/v10.4.1",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.9.2",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.8.0",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/09/long-term-support-channel-update-for_19.html"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.9.0",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/09/long-term-support-channel-update-for_26.html"
   }
 }
