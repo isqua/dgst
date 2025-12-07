@@ -1,16 +1,16 @@
 {
-  "count": 71,
+  "count": 72,
   "lastSeen": {
-    "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.2.0",
+    "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.2.1",
     "https://overreacted.io/rss.xml": "https://overreacted.io/hire-me-in-japan/",
     "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.11.0",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/create-vite%408.2.0",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.0.14",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v8.0.0-beta.0",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.0.15",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.0",
     "https://github.com/testing-library/dom-testing-library/releases.atom": "https://github.com/testing-library/dom-testing-library/releases/tag/v10.4.1",
-    "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/",
+    "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.9.2",
     "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v20.19.6",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/11/beta-channel-update-for-chromeos_25.html"
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/12/chrome-dev-for-desktop-update_0893585634.html"
   }
 }
