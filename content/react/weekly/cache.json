@@ -1,5 +1,5 @@
 {
-  "count": 75,
+  "count": 76,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.0.3",
     "https://overreacted.io/rss.xml": "https://overreacted.io/introducing-rsc-explorer/",
@@ -11,6 +11,6 @@
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/progress-on-typescript-7-december-2025/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v5.9.2",
     "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v24.12.0",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/12/beta-channel-update-for-chromeos_26.html"
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2025/12/chrome-beta-for-ios-update_0809853519.html"
   }
 }
