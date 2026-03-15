@@ -1,15 +1,15 @@
 {
-  "count": 85,
+  "count": 86,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.1.5",
     "https://overreacted.io/rss.xml": "https://overreacted.io/a-social-filesystem/",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v8.0.0-beta.16",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.0-beta.6",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/create-vite%409.0.2",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.0",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.2",
     "https://github.com/testing-library/dom-testing-library/releases.atom": "https://github.com/testing-library/dom-testing-library/releases/tag/v10.4.1",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v6.0-rc",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v22.22.1",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-chromeos.html"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v25.8.1",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_13.html"
   }
 }
