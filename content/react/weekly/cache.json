@@ -1,15 +1,15 @@
 {
-  "count": 87,
+  "count": 88,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/facebook/react/releases/tag/v19.1.5",
     "https://overreacted.io/rss.xml": "https://overreacted.io/a-social-filesystem/",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v8.0.1",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.0",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v8.0.3",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.2",
     "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.2",
     "https://github.com/testing-library/dom-testing-library/releases.atom": "https://github.com/testing-library/dom-testing-library/releases/tag/v10.4.1",
-    "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
-    "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v6.0-rc",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v25.8.1",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/03/long-term-support-channel-update-for_20.html"
+    "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+    "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v6.0.2",
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v25.8.2",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/03/long-term-support-channel-update-for_26.html"
   }
 }
