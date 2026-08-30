@@ -1,16 +1,16 @@
 {
-  "count": 109,
+  "count": 110,
   "lastSeen": {
     "https://github.com/facebook/react/releases.atom": "https://github.com/react/react/releases/tag/v19.2.8",
     "https://overreacted.io/rss.xml": "https://overreacted.io/there-are-no-instances-in-atproto/",
     "https://github.com/reduxjs/redux-toolkit/releases.atom": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.12.0",
-    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/v8.2.2",
-    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.11",
-    "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.2",
+    "https://github.com/vitejs/vite/releases.atom": "https://github.com/vitejs/vite/releases/tag/create-vite%409.2.0",
+    "https://github.com/vitest-dev/vitest/releases.atom": "https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.3",
+    "https://github.com/testing-library/react-testing-library/releases.atom": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.3",
     "https://github.com/testing-library/dom-testing-library/releases.atom": "https://github.com/testing-library/dom-testing-library/releases/tag/v10.4.1",
     "https://devblogs.microsoft.com/typescript/feed/": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
     "https://github.com/microsoft/TypeScript/releases.atom": "https://github.com/microsoft/TypeScript/releases/tag/v7.0.2",
-    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v26.7.0",
-    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_02124749902.html"
+    "https://github.com/nodejs/node/releases.atom": "https://github.com/nodejs/node/releases/tag/v26.8.1",
+    "https://chromereleases.googleblog.com/feeds/posts/default": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for_0697002765.html"
   }
 }
