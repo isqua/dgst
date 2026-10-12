@@ -1,19 +1,19 @@
 {
-  "count": 67,
+  "count": 68,
   "lastSeen": {
     "https://www.developerway.com/rss.xml": "https://www.developerway.com/posts/building-the-playground-for-ai-coders",
     "http://antonz.ru/rss/": "https://antonz.ru/accepted/modernized-go-fix/",
-    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/two-eulers-formulas/",
+    "http://ilyabirman.ru/meanwhile/rss/": "https://ilyabirman.ru/meanwhile/all/ilyabirmanru-2026/",
     "http://softwaremaniacs.org/blog/feed/": "https://softwaremaniacs.org/blog/2025/12/05/have-you-accepted-ai-yet/",
     "https://a11y-blog.dev/ru/feed.xml": "https://a11y-blog.dev/ru/articles/a11y-stats/",
     "https://addyosmani.com/feed.xml": "https://addyosmani.com/blog/brownfield-agentic-engineering/",
     "https://blog.logrocket.com/feed/": "https://blog.logrocket.com/tailwind-css-vs-stylex-a-real-migration-with-20-components/",
-    "https://bolknote.ru/rss/": "https://bolknote.ru/all/zatycka-v-vanne",
+    "https://bolknote.ru/rss/": "https://bolknote.ru/all/teplyj-oktabr",
     "https://danis.one/rss/": "https://danis.one/treca_godina_u_srbiji/",
-    "https://dxdt.ru/feed/": "https://dxdt.blog/2026/10/04/19363/",
+    "https://dxdt.ru/feed/": "https://dxdt.blog/2026/10/10/19400/",
     "https://feeds.feedburner.com/kizuruen": "https://kizu.dev/shrinkwrap-solution/",
-    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-    "https://github.blog/feed/": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+    "https://github.blog/changelog/feed/": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "https://github.blog/feed/": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
     "https://kentcdodds.com/blog/rss.xml": "https://kentcdodds.com/blog/you-own-the-outcome",
     "https://ksoftware.livejournal.com/data/atom": "https://toverovskiy.livejournal.com/457474.html",
     "https://lea.verou.me/feed.xml": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
@@ -23,14 +23,10 @@
     "https://rakhim.exotext.com/rss.xml": "https://rakhim.exotext.com/making-human-languages-irrelevant",
     "https://ru.hexlet.io/blog.rss": "https://ru.hexlet.io/blog/posts/ekonomiya-tokenov-pri-rabote-s-ii",
     "https://sapegin.me/atom.xml": "https://sapegin.me/blog/coding-with-ai/",
-    "https://sergeykorol.ru/blog/feed/": "https://sergeykorol.ru/blog/perfumes/",
-    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
+    "https://sergeykorol.ru/blog/feed/": "https://sergeykorol.com/focusdesk/",
+    "https://smashingmagazine.com/feed": "https://smashingmagazine.com/2026/10/how-name-things/",
     "https://svelte.dev/blog/rss.xml": "https://svelte.dev/blog/whats-new-in-svelte-october-2026",
     "https://tonsky.me/atom.xml": "https://tonsky.me/blog/work-2026/",
-    "https://vorushin.github.io/feed.xml": "https://vorushin.github.io/blog/research-engineers-ai-labs",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA": "https://www.youtube.com/watch?v=RypUD_Fuaqw",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCLZ6-13n1-IzVGCSNYP_CSw": "https://www.youtube.com/watch?v=eVldld15cXo",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCOei1E1Vqq10S913OEqTWGw": "https://www.youtube.com/watch?v=Q9ybCDSEB3g",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCKvaSxHH11xccltyc8IFXjA": "https://www.youtube.com/watch?v=A4_huPnIRyQ"
+    "https://vorushin.github.io/feed.xml": "https://vorushin.github.io/blog/research-engineers-ai-labs"
   }
 }
